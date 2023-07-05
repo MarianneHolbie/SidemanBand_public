@@ -43,12 +43,19 @@ and blogpost in [Medium](https://medium.com/@marianne.arrue/with-sidemanband-say
 --- Only for authorize user ---
 
 - fork repository
-- ``` docker compose build ```
+- build docker
+``` 
+docker compose build 
+```
 - run with docker desktop your created container
 - in the folder where you download the fork, launch the api with 
-``` uvicorn app.main:app --reload --port 3000 ```
+``` 
+uvicorn app.main:app --reload --port 3000 
+```
 - on the other terminal, go to the front part directory and build front with
-``` npm run dev```
+``` 
+npm run dev
+```
 
 Now you can connect to your local in port 3000 to view the connexion to the back part, in :3000/docs to view the swagger doc, and http://localhost:5173/ to view the front part.
 
