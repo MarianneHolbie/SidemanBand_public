@@ -1,5 +1,6 @@
 # SidemanBand Web App
 
+
 Welcome to the SidemanBand web app public repository! 
 
 The world is populated by both professional and nonprofessional music groups. The individuals comprising these groups often participate in multiple bands or pursue music as a secondary occupation. Just like anyone else, they may encounter unforeseen circumstances such as illness, injury, or work-related travel that necessitates their absence.
@@ -37,6 +38,27 @@ and blogpost in [Medium](https://medium.com/@marianne.arrue/with-sidemanband-say
 
 - **Tailwind CSS:** Tailwind CSS is utilized for styling the web app, providing a flexible and utility-first CSS framework.
 
-## Licensing
+## Installation
+
+--- Only for authorize user ---
+
+- fork repository
+- ``` docker compose build ```
+- run with docker desktop your created container
+- in the folder where you download the fork, launch the api with 
+``` uvicorn app.main:app --reload --port 3000 ```
+- on the other terminal, go to the front part directory and build front with
+``` npm run dev```
+
+Now you can connect to your local in port 3000 to view the connexion to the back part, in :3000/docs to view the swagger doc, and http://localhost:5173/ to view the front part.
+
+## Usage
+
+on the local deployement you can create user, create instrument or groupe, delete instrument or group, send message of specific sideman in a view list or send a notification for all sideman coresponding search with intereact in the dashboard after authentication.
+
+## Related projects
+None
+
+## Contributing - Licensing
 
 All right reserved - [Marianne Arrué](https://www.linkedin.com/in/mariannearrue/)
