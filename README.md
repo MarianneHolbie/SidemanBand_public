@@ -1,6 +1,7 @@
 # SidemanBand Web App
 
-Welcome to the SidemanBand web app repository! 
+Welcome to the SidemanBand web app public repository! 
+
 The world is populated by both professional and nonprofessional music groups. The individuals comprising these groups often participate in multiple bands or pursue music as a secondary occupation. Just like anyone else, they may encounter unforeseen circumstances such as illness, injury, or work-related travel that necessitates their absence.
 When a music group plans a concert, the designated person in charge typically begins by inquiring about everyone's availability. If necessary, they then proceed to search for potential replacements. The primary objective is to find substitute musicians as quickly as possible to allow for rehearsals with the new members, if applicable. Nevertheless, there are instances where replacements need to be secured at the eleventh hour.
 Finding suitable replacements can be a complex process that often relies on musician networks. These networks facilitate the exchange of potential names and contact information through phone calls. However, sharing someone's contact details without their consent poses difficulties, and acting as the intermediary can result in a waste of time.
@@ -8,15 +9,18 @@ This project aims to streamline the process of finding replacements for music gr
 
 SidemanBand is the perfect platform to help Band to found sidemen and for Sideman to found band to replace for gig.
 
+For learning more see the [LANDING PAGE](https://sidemanband-lp.vercel.app/) 
+and blogpost in [Medium](https://medium.com/@marianne.arrue/with-sidemanband-say-goodbye-to-wasting-time-and-spending-hours-on-the-phone-to-find-replacement-97719543d8d0)
+
 ## Features
 
 - **Create and Manage Profiles:** Users can create and manage their profiles: update informations, add or delete instrument and level of pratics, add or delete band.
 
-- **Search List** Users band can search a list of sidemen with specific requierement and contact them.
+- **Search List** Users band can search a list of sidemen with specific requierement and contact them directly in app
 
-- **Replacement request** Users band can emit a message for all sidemen corresponding to searched requierement for a specific gig.
+- **Replacement request** Users band can emit a message for all sidemen corresponding to searched requierement for a specific gig and manage answer.
 
-- **Notidication:** Sideman can view all replacement request in the notification tab and respond
+- **Notification:** Sideman can view all replacement request in the notification tab and respond
 
 
 ## Technologies Used
@@ -33,3 +37,6 @@ SidemanBand is the perfect platform to help Band to found sidemen and for Sidema
 
 - **Tailwind CSS:** Tailwind CSS is utilized for styling the web app, providing a flexible and utility-first CSS framework.
 
+## Licensing
+
+All right reserved - [Marianne Arrué](https://www.linkedin.com/in/mariannearrue/)
